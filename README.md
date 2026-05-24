@@ -1,56 +1,8 @@
-# Urban Routes — Selenium Automation Project
+### Diretrizes de nomenclatura de código
 
-## 📌 Project Overview
-Automated testing project developed using Selenium WebDriver, Pytest, and Python to validate the complete taxi ordering flow.
-
----
-
-## 🚀 Technologies & Tools
-- Selenium
-- Python
-- Pytest
-- POM
-- ChromeDriver
-- Automated Testing
-- UI Testing
-- GitHub
-
----
-
-## ✅ Automated Test Scenarios
-
-- Set route address
-- Select Comfort plan
-- Phone number validation
-- SMS code retrieval
-- Add payment card
-- Add driver comments
-- Request blankets and tissues
-- Request ice cream
-- Complete taxi request flow
-
----
-
-## 🏗️ Framework Structure
-
-Implemented:
-- Page Object Model (POM)
-- Setup & Teardown
-- Selenium WebDriver
-- Pytest execution
-
----
-
-## ⚡ Key Achievements
-
-- Reduced repetitive manual testing
-- Improved test organization
-- Automated end-to-end flows
-- Validated UI functionality
-
----
-
-
-## 👩‍💻 Author
-Judy Hellen Silva
-QA Software Engineering
+- **Nomes de variáveis** são escritos em `snake_case` e descrevem sua finalidade;
+- **Constantes** são escritas em maiúsculas;
+- **Comentários** são usados para explicar blocos importantes de código;
+- A **organização do código** é modular, com blocos de código reutilizáveis importados para onde for necessário;
+- Evite funções de espera (`wait`) desnecessárias que fazem com que o teste seja executado por mais tempo do que o necessário;
+- Siga uma **convenção de nomenclatura** para títulos de teste que começam com `test\_` e fornece uma descrição clara do cenário de teste. Os títulos dos testes são fornecidos no resumo.
